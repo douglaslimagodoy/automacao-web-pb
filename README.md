@@ -78,6 +78,6 @@ Screenshots são salvos na pasta screenshots/
 ## Contato
 Douglas Felipe Lima de Godoy
 QA Engineer | QA Lead
-GitHub | douglas@example.com
+GitHub | douglaslimagodoy
 
 
