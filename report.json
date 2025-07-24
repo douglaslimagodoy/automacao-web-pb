@@ -1,0 +1,101 @@
+[
+  {
+    "id": "testar-botões-da-interface",
+    "uri": "features/desafio.feature",
+    "keyword": "Funcionalidade",
+    "name": "Testar botões da interface",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "testar-botões-da-interface;clicar-em-todos-os-botões-e-ações-da-pagina",
+        "keyword": "Cenário",
+        "name": "Clicar em todos os botões e ações da pagina",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesso a página Challenging DOM",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/desafio_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4373288200
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico nos botões da tela",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/desafio_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149748500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em todos os botões de ação Edit e Delete da tabela",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/desafio_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10642261500
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver o título \"Challenging DOM\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/desafio_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209967500
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12800
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262916000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
